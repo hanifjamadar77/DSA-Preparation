@@ -1,4 +1,4 @@
-package DSA_Problems;
+package DSA_Problems.BitwiseOperator_NumberSystem;
 
 public class EvenOdd_Using_Operator {
     public static void main(String[] args) {

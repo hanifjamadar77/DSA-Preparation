@@ -1,4 +1,4 @@
-package DSA_Problems;
+package DSA_Problems.BitwiseOperator_NumberSystem;
 
 public class Nth_Magic_Number {
     public static void main(String[] args) {

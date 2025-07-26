@@ -1,6 +1,5 @@
-package DSA_Problems;
+package DSA_Problems.Matrix;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Search_In_Sorted_Matrix {

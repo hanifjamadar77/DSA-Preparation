@@ -1,4 +1,4 @@
-package DSA_Problems;
+package DSA_Problems.BinarySearch;
 
 public class FloorNumber {
 
