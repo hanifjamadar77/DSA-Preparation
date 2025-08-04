@@ -1,6 +1,6 @@
 package DSA_Problems.Recurssion.ArrayProblems;
 
-public class BinarySearch {
+public class Rotated_Binary_Search {
     public static void main(String[] args) {
         int[] arr = {1,20,3,5,6,8,10};
         System.out.println(Search(arr, 8,0, arr.length-1));
