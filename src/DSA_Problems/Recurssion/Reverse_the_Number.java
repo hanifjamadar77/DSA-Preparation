@@ -1,7 +1,5 @@
 package DSA_Problems.Recurssion;
 
-//import netscape.security.UserTarget;
-
 public class Reverse_the_Number {
     public static void main(String[] args) {
 
