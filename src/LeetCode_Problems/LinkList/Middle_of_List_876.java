@@ -15,6 +15,7 @@ public class Middle_of_List_876 {
           ListNode(int val, ListNode next) { this.val = val; this.next = next; }
      }
 
+//     Leetcode solution
     class Solution {
         public ListNode middleNode(ListNode head) {
             ListNode slow = head;

@@ -1,6 +1,6 @@
 package DSA_Problems.LinkList;
 
-public class LL {
+public class Singly_Linked_List {
     private Node head;
     private Node tail;
     private int size;
@@ -69,4 +69,51 @@ public class LL {
         temp.next = node;
         size++;
     }
+
+    public int deleteFirst(){
+        int value = head.value;
+
+        head = head.next;
+
+        if(head == null){
+            tail = null;
+        }
+        size --;
+        return value;
+    }
+
+    public Node get(int index){
+        Node node = head;
+        for(int i = 1; i< index ; i++){
+            node = node.next;
+        }
+        return node;
+    }
+
+    public int deleteLast(){
+        if(size <= 1){
+            return deleteFirst();
+        }
+
+        Node secondLast = get(size - 1);
+        int val = tail.value;
+        tail = secondLast;
+        tail.next = null;
+        return val;
+    }
+
+    public int delete(int index){
+        if(index == 0){
+            return deleteFirst();
+        }
+        if(index == size - 1){
+            return deleteLast();
+        }
+
+        Node prev = get(index -1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+        return val;
+    }
+
 }
