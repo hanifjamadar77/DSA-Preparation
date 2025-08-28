@@ -18,20 +18,32 @@ public class main {
 //
 //        ll.display();
 
-        Doubly_Linked_List dll = new Doubly_Linked_List();
+//        Doubly_Linked_List dll = new Doubly_Linked_List();
+//
+//        dll.insertFirst(3);
+//        dll.insertFirst(4);
+//        dll.insertFirst(2);
+//        dll.insertFirst(1);
+//        dll.insertFirst(7);
+//
+//        dll.insertLast(10);
+//        dll.insertLast(8);
+//
+//        dll.insert(11,2);
+//
+//        dll.display();
 
-        dll.insertFirst(3);
-        dll.insertFirst(4);
-        dll.insertFirst(2);
-        dll.insertFirst(1);
-        dll.insertFirst(7);
 
-        dll.insertLast(10);
-        dll.insertLast(8);
+        Circular_Linked_List cll = new Circular_Linked_List();
 
-        dll.insert(11,2);
+        cll.insertFirst(3);
+        cll.insertFirst(5);
+        cll.insertFirst(10);
+        cll.insertFirst(11);
 
-        dll.display();
+        cll.delete(5);
+
+        cll.display();
 
     }
 }
