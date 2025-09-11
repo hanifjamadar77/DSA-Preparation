@@ -62,4 +62,44 @@ public class Binary_Trees {
         }
         display(node.left, level + 1);
     }
+
+//    Tree Traversal
+//    Pre-Order =  Node -> left -> right
+public void preOrder(){
+        preOrder(root);
+}
+private void preOrder(Node node){
+        if(node == null){
+            return;
+        }
+    System.out.println(node.value + " ");
+    preOrder(node.left);
+    preOrder(node.right);
+}
+
+    //    In-Order = left -> Node -> right
+    public void inOrder(){
+        inOrder(root);
+    }
+    private void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+        inOrder(node.left);
+        System.out.println(node.value + " ");
+        inOrder(node.right);
+    }
+
+    //    Post-Order = Left -> Right -> Node
+    public void postOrder(){
+        postOrder(root);
+    }
+    private void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+        System.out.println(node.value + " ");
+        postOrder(node.left);
+        postOrder(node.right);
+    }
 }
