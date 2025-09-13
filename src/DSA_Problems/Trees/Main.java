@@ -10,12 +10,23 @@ public class Main {
 //        bt.populate(scanner);
 //        bt.display();
 
-        Binary_Search_Tree tree = new Binary_Search_Tree();
+//        Binary_Search_Tree tree = new Binary_Search_Tree();
+//
+//        int[] nums = {0, 5, 11, 19, 35, 40, 99};
+////        tree.populate(nums);
+//        tree.populatedSorted(nums);
+//        tree.display();
 
-        int[] nums = {0, 5, 11, 19, 35, 40, 99};
-//        tree.populate(nums);
-        tree.populatedSorted(nums);
-        tree.display();
+
+        int[] arr = {1, 3, 5, 7, 9, 11};
+        Segment_Tree st = new Segment_Tree(arr);
+
+        st.display();
+
+        System.out.println("Query (1,3): " + st.query(1, 3));
+        st.update(1, 10);
+        System.out.println("After Update:");
+        st.display();
 
     }
 }
