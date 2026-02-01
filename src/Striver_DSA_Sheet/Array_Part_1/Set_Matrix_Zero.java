@@ -1,6 +1,6 @@
-package Striver_DSA_Sheet;
+package Striver_DSA_Sheet.Array_Part_1;
 
-public class Array_part_1 {
+public class Set_Matrix_Zero {
     public static void main(String[] args) {
         int[][] matrix = {
                 {1,1,1},{1,0,1},{1,1,1}
