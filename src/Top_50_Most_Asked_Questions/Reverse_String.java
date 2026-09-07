@@ -1,6 +1,8 @@
 package Top_50_Most_Asked_Questions;
 
 // Reverse a String
+//Time: O(n)
+//Extra Space: O(n)
 
 public class Reverse_String {
     public static String reverse(String str) {
