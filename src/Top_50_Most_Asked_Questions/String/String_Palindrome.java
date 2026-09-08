@@ -1,4 +1,4 @@
-package Top_50_Most_Asked_Questions;
+package Top_50_Most_Asked_Questions.String;
 
 // Check if a String is a Palindrome
 

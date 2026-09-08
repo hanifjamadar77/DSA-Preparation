@@ -1,6 +1,4 @@
-package Top_50_Most_Asked_Questions;
-
-import static com.sun.org.apache.xalan.internal.lib.ExsltMath.power;
+package Top_50_Most_Asked_Questions.Questions_On_Numbers;
 
 // Check if a Number is Armstrong
 // Time: O(d²) with the simple power() implementation, where d is the number of digits.

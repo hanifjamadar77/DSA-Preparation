@@ -1,4 +1,4 @@
-package Top_50_Most_Asked_Questions;
+package Top_50_Most_Asked_Questions.Questions_On_Numbers;
 
 // Reverse an Integer
 // Time: O(log n)
