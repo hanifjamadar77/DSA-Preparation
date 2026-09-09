@@ -19,8 +19,8 @@ public class Smallest_Element_in_Array {
     }
 
     public static void main(String[] args) {
-        int[] arr = {10, 5, 25, 8, 15};
+        int[] arr = {10, 5, 25, 8, 1};
 
-        System.out.println(findSmallest(arr)); // 5
+        System.out.println(findSmallest(arr)); // 1
     }
 }
