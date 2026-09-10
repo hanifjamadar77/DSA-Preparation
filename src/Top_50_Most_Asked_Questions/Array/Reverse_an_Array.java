@@ -1,6 +1,10 @@
 package Top_50_Most_Asked_Questions.Array;
 
 // Reverse an Array
+
+// Time:  O(n)
+// Space: O(1)
+
 public class Reverse_an_Array {
     public static void reverse(int[] arr){
         int start = 0;
