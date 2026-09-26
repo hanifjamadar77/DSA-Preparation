@@ -21,8 +21,23 @@ public class Maximum_Subarray_Sum {
         }
         return maxSum;
     }
+
+
+//    Find the all sub array
+  public static void allSubArray(int[] arr){
+        for(int start =0; start<arr.length; start++){
+            for(int end = start; end<arr.length; end++){
+                for(int i = start; i<end; i++){
+                    System.out.print(arr[i] + " ");
+                }
+                System.out.println();
+            }
+        }
+  }
     public static void main(String[] args) {
         int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
         System.out.println("Max subarray sum: " + maxSubarraySum(arr)); // 6
+
+        // allSubArray(arr);
     }
 }
